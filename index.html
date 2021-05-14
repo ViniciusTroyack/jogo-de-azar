@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <main id="jogo">
+      <header>
+        <h1>Pedra, Papel e Tesoura</h1>
+      </header>
+      <h3>Faça sua escolha!</h3>
+      <div id="escolhas">
+        <button id="pedra">
+          Pedra<img src="./img/pedra-removebg-preview.png" alt="" />
+        </button>
+        <button id="papel">
+          Papel <img src="./img/papel-removebg-preview.png" alt="" />
+        </button>
+        <button id="tesoura">
+          Tesoura <img src="/img/tesoura-removebg-preview.png" alt="" />
+        </button>
+      </div>
+      <div id="comparador">
+        <button id="go">Go!</button>
+      </div>
+
+      <h3>Resultado:</h3>
+      <div id="resultado"></div>
+    </main>
+    <script src="jogo.js"></script>
+  </body>
+</html>
